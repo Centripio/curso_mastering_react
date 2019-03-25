@@ -1,0 +1,186 @@
+:root {
+    /* Color palette  */
+    --default: #999999;
+    --red: #E74C3C;
+    --blue: #3498DB;
+    --purple: #9B59B6;
+    --yellow: #FEB506;
+    --green: #62CB31;
+
+    /* Background colors */
+    --bg-from: #1C3744;
+    --bg-to: #1E5372;
+
+    /* Card color */
+    --bg-card: #fafafa;
+    --bg-card-hover: #dadada;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background: #1E5372;
+  background: linear-gradient(to right, var(--bg-from) , var(--bg-to));
+}
+
+input{
+  display: inline-block;
+
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  color: #666;
+}
+
+a{
+  color: inherit;
+}
+
+p{
+  margin: 0;
+  display: inline-block;
+}
+
+h2{
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+#todoApp{
+    border: 3px dotted red;
+    padding: 10px;
+}
+
+#todoApp > input {
+    width: 300px;
+    padding: 10px;
+}
+
+.container{
+  padding: 0px 20px;
+  height: 100%;
+}
+
+.card-container{
+  overflow: auto;
+}
+
+.output{
+  color: #fafafa;
+}
+
+.readonly{
+    color: white;
+}
+
+
+.card{
+  position: relative;
+  background-color: var(--bg-card);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+  float: left;
+  width: 32%;
+  box-sizing: border-box;
+}
+
+.card button{
+  margin: 0px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.card:hover{
+  background-color: var(--bg-card-hover)
+}
+
+.card.default{
+  border-bottom: 5px solid var(--default);
+}
+
+.card.red{
+  border-bottom: 5px solid var(--red);
+}
+
+.card.blue{
+  border-bottom: 5px solid var(--blue);
+}
+
+.card.purple{
+  border-bottom: 5px solid var(--purple);
+}
+
+.card.yellow{
+  border-bottom: 5px solid var(--yellow);
+}
+
+.card.green{
+  border-bottom: 5px solid var(--green);
+}
+
+.card.pulse {
+  transition: 0.5s;
+}
+
+.card.pulse:hover{
+  background-color: var(--bg-card);
+}
+
+.card.pulse:hover {
+  transform: scale(1.05);
+}
+
+.card.animate{
+  border-bottom: none;
+}
+
+.card.animate:hover{
+  background-color: var(--bg-card);
+}
+
+.card.animate:before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 5px;
+  width: 0%;
+  border-radius: 0 0 5px 5px;
+  transition: 0.5s;
+}
+
+.card.animate:hover:before{
+  width: 100%;
+}
+
+.card.animate.default:before{
+  background-color: var(--default)
+}
+
+.card.animate.blue:before{
+  background-color: var(--blue)
+}
+
+.card.animate.yellow:before{
+  background-color: var(--yellow)
+}
+
+.card.animate.purple:before{
+  background-color: var(--purple)
+}
+
+.card.animate.green:before{
+  background-color: var(--green)
+}
+
+.card.animate.red:before{
+  background-color: var(--red)
+}
+
