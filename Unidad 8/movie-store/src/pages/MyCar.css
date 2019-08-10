@@ -1,0 +1,54 @@
+.mycard-container{
+    padding: 30px 0px 30px;
+}
+
+.mycard-container table{
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.mycard-container table thead td{
+    text-align: center;
+}
+
+.mycard-container table tr{
+    border: 1px solid #333;
+}
+
+.mycard-container table td{
+    padding: 10px;
+}
+
+
+.mycard-container table td .banner{ 
+    text-align: right;
+}
+
+.mycard-container table td .delete{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mycard-container table td img{
+    max-height: 150px;
+}
+
+
+.mycard-container table .price{
+    color: var(--green);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mycard-container .card-empty{
+    text-align: center;
+}
+
+.mycard-container .card-controls{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.mycard-container .card-controls button{
+    margin-left: 15px;
+}

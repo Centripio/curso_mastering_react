@@ -1,0 +1,37 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#templete{}
+
+#templete nav{
+    padding: 10px;
+    position: fixed;
+    background-color: #dadada;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+}
+
+#templete nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#templete main{
+    padding: 10px;
+    margin-left: 200px;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+a.active{
+    color: red;
+}

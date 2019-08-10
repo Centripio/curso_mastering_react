@@ -1,0 +1,23 @@
+#moviePage .movie-container{
+    padding-top: 30px;
+}
+
+#moviePage aside{
+    text-align: center;
+    display: flex;
+    flex-direction: column
+}
+
+
+
+#moviePage aside img{
+    max-width: 100%;
+}
+
+#moviePage aside button{
+    margin-top: 20px;
+}
+
+#moviePage label{
+    font-weight: bold;
+}

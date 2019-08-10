@@ -1,0 +1,15 @@
+{
+  "name": "mastering-react",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de mastering react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "react"
+  ],
+  "author": "Centripio",
+  "license": "ISC"
+}
