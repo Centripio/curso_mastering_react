@@ -28,7 +28,7 @@ export default class MyCar extends React.Component{
             if(response.ok){
                 this.context.update([])
                 //window.location = "/gracias"
-                this.props.history.push('/gracias')
+                this.props.history.push(`/gracias/${response.body.id}`)
             }
         } catch (error) {
             console.log("error => ", error)

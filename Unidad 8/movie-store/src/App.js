@@ -6,7 +6,7 @@ import MoviePage from './pages/MoviePage'
 import CarContext from './contexts/CarContext'
 import APIInvoke from './utils/APIInvoke'
 import MyCar from './pages/MyCar';
-import Thanks from './pages/thank';
+import Thanks from './pages/Thank';
 
 export default class App extends React.Component{
 
@@ -52,7 +52,7 @@ export default class App extends React.Component{
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/carrito" component={MyCar}/>
-            <Route exact path="/gracias" component={Thanks}/>
+            <Route exact path="/gracias/:orderId" component={Thanks}/>
             <Route path="/:movieId" component={MoviePage}/>
           </Switch>
         </Router>
