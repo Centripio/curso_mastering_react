@@ -1,0 +1,43 @@
+.my-car{
+
+}
+
+.my-car table{
+    width: 100%;
+}
+
+.my-car table tr{
+    border: 1px solid #333;
+}
+
+.my-car table tr td{
+    padding: 10px;
+}
+
+.my-car table thead td{
+    text-align: center;
+}
+
+.my-car table .price{
+    font-weight: bold;
+    color: var(--green);
+}
+
+.my-car table .banner{
+    text-align: right;
+}
+
+.my-car table tbody img{
+    width: 100px;
+    height: 150px;
+}
+
+
+.my-car .controls{
+    text-align: right;
+    padding-top: 15px;
+}
+
+.my-car .controls .btn{
+    margin-left: 15px;
+}

@@ -1,0 +1,22 @@
+.card{
+    margin-bottom: 30px;
+}
+
+
+.card .card-content img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.card .card-control{
+    padding: 15px;
+    text-align: right;
+}
+
+.card .card-control p{
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
