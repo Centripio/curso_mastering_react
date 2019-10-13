@@ -1,0 +1,19 @@
+.movie-page {
+
+}
+
+.movie-page .movie-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-page .movie-banner button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.movie-page .movie-data label{
+    font-weight: bold;
+}
